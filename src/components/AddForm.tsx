@@ -1,11 +1,9 @@
-import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const AddForm = () => {
   const navigate = useNavigate();
-  const { id } = useParams();
 
   const [add, setAdd] = useState<any>({
     name: "",
@@ -22,7 +20,7 @@ const AddForm = () => {
   const submitHandler = (event: any) => {
     event.preventDefault();
     axios.post(baseURL, add).then((response) => {
-      if (response.status == 201) {
+      if (response.status === 201) {
         navigate("/");
       } else {
         alert("Somthing went wrong!");

@@ -32,7 +32,7 @@ const EditForm = () => {
   const submitHandler = (event: any) => {
     event.preventDefault();
     axios.put(`http://localhost:3000/users/${id}`, edit).then((response) => {
-      if (response.status == 200) {
+      if (response.status === 200) {
         navigate("/");
       } else {
         alert("Somthing went wrong!");

@@ -34,8 +34,8 @@ const Table = () => {
     getData();
   };
 
-  const adddata = (args: any) => {
-    navigate(`/add-form/${args}`);
+  const adddata = () => {
+    navigate(`/add-form/`);
   };
 
   return (
@@ -45,7 +45,7 @@ const Table = () => {
           type="button"
           className="btn btn-success mb-5"
           onClick={() => {
-            adddata(Math.floor(Math.random() * 16) + 6);
+            adddata();
           }}
         >
           Add new details

@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Nayana",
+      "email": "nayana@gmail.com",
+      "phone": "+91 8123512259",
+      "id": 1
+    },
+    {
+      "name": "Pooja",
+      "email": "pooja@gmail.com",
+      "phone": "+91 8123512259",
+      "id": 2
+    },
+    {
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "phone": "+91 8123512259",
+      "id": 3
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "phone": "+91 8123512259",
+      "id": 4
+    },
+    {
+      "name": "Pooja ",
+      "email": "poojar3339@gmail.com",
+      "phone": "+91 8123512259",
+      "id": 6
+    },
+    {
+      "name": "Pooja R",
+      "email": "pooja.r.3339@gmail.com",
+      "phone": "+91 8123512259",
+      "id": 7
+    },
+    {
+      "name": "Pooja R",
+      "email": "pooja.r.3339@gmail.com",
+      "phone": "77845",
+      "id": 8
+    }
+  ]
+}
